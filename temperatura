@@ -1,0 +1,13 @@
+print (" -- Este programa convierte grados Celsius a Faharenheit y Kelvins --")
+print ("")
+temperatura = int (input("Ingrese la temperatura que desee convertir: "))
+cerofahrenheit = 32
+def gradosfa (cerofahrenheit, temperatura):
+    return (cerofahrenheit) + (temperatura)
+ceroKelvin = 273.5
+def gradoske(ceroKelvin, temperatura):
+    return (ceroKelvin) + (temperatura)
+datoF = gradosfa(cerofahrenheit, temperatura)
+datoK = gradoske (ceroKelvin, temperatura)
+print (f"Son : {datoF} grados Fahrenheit.")
+print (f"Son : {datoK} grados Kelvins.")
